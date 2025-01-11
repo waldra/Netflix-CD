@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: netflix-app
-        image: waldara/netflix:latest
+        image: waldara/netflix:1.0.0-13
         ports:
         - containerPort: 80
