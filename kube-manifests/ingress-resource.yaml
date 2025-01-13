@@ -14,10 +14,10 @@ metadata:
     alb.ingress.kubernetes.io/success-codes: '200'
     alb.ingress.kubernetes.io/healthy-threshold-count: '2'
     alb.ingress.kubernetes.io/unhealthy-threshold-count: '2'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:eu-west-1:654654241121:certificate/f2a8632e-617b-4e25-8637-2c0611e22309
+    alb.ingress.kubernetes.io/certificate-arn: # place your certificate ARN here
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
     alb.ingress.kubernetes.io/ssl-redirect: '443'
-    external-dns.alpha.kubernetes.io/hostname: movies.waldara.net
+    external-dns.alpha.kubernetes.io/hostname: # place your domain here
 spec:
   ingressClassName: alb
   defaultBackend:
